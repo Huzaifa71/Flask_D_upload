@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+</head>
+<body>
+    <h1>About Us</h1>
+    <p>Welcome to our Gym! We offer top-notch facilities for all your fitness needs.</p>
+    <img src="{{ url_for('static', filename='gym.jpg') }}" alt="Gym Image">
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
